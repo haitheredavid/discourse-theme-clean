@@ -25,6 +25,12 @@ body {
     border-top: none;
 }
 
+.mobile-view .tiles-style tbody {
+    display: grid;
+    grid-gap: 6px;
+    grid-auto-rows: auto;
+}
+
 /* 全局 按钮 Global button */
 .docker-manager .btn, 
 .btn-default, .btn-large, .btn-small, .btn-primary{
