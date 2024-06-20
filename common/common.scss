@@ -11,10 +11,19 @@
     --highlight-bg: #e4e8ec;
 }
 
+
 body {
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif;
 }
 
+/* Overriding mobile settings */
+.tiles-style tbody {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-auto-rows: auto;
+    border-top: none;
+}
 
 /* 全局 按钮 Global button */
 .docker-manager .btn, 
